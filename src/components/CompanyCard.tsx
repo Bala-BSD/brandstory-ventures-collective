@@ -54,14 +54,6 @@ const CompanyCard = ({ company }: CompanyCardProps) => {
       <p className="text-muted-foreground text-sm leading-relaxed flex-grow">
         {company.description}
       </p>
-
-      {company.ownership && (
-        <div className="mt-4 pt-4 border-t border-border">
-          <span className="text-xs text-muted-foreground">
-            Leadership: <span className="text-foreground">{company.ownership}</span>
-          </span>
-        </div>
-      )}
     </div>
   );
 };
